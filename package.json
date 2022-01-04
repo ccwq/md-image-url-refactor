@@ -1,0 +1,27 @@
+{
+    "name": "md-image-url-refactor",
+    "version": "1.0.0",
+    "description": "监控并转化less到css",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "update": "npm i -g %cd%"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ccwq/md-image-url-refactor"
+    },
+    "author": "ccwq",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ccwq/md-image-url-refactor/issues"
+    },
+    "homepage": "https://github.com/ccwq/md-image-url-refactor",
+    "bin": {
+        "less2er": "./index.js"
+    },
+    "dependencies": {
+        "glob": "^7.2.0",
+        "yargs": "^17.3.1"
+    }
+}
