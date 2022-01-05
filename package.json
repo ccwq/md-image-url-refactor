@@ -5,7 +5,8 @@
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "update": "npm i -g %cd%"
+        "update": "npm i -g %cd%",
+        "dev": "node index.js E:\\files\\简书本地化\\origin-md "
     },
     "repository": {
         "type": "git",
@@ -21,7 +22,13 @@
         "less2er": "./index.js"
     },
     "dependencies": {
+        "bluebird": "^3.7.2",
+        "content-type-to-ext": "^1.0.0",
+        "del": "^6.0.0",
+        "fetch": "^1.1.0",
         "glob": "^7.2.0",
+        "puppeteer": "^13.0.1",
+        "request": "^2.88.2",
         "yargs": "^17.3.1"
     }
 }

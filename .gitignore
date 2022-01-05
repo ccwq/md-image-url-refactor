@@ -3,3 +3,6 @@
 package-lock.json
 node_modules
 ex/
+tpl.html
+yarn.lock
+package-lock.json
