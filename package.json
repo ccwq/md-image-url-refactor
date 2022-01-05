@@ -1,6 +1,6 @@
 {
     "name": "md-image-url-refactor",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "监控并转化less到css",
     "main": "index.js",
     "scripts": {
