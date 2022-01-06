@@ -1,7 +1,7 @@
 {
     "name": "md-image-url-refactor",
     "version": "1.0.1",
-    "description": "监控并转化less到css",
+    "description": "扫描目录下markdown文件中包含的远程图片地址,下载图片到本地,并修改指引",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
